@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="com.amitsinha.backashome"
+           id="com.danielsogl.backashome"
       version="0.1.0">
 
     <name>Back As Home</name>
@@ -15,11 +15,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="IonicHome">
-                <param name="android-package" value="com.amitsinha.backashome.IonicHome"/>
+                <param name="android-package" value="com.danielsogl.backashome.IonicHome"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/IonicHome.java" target-dir="src/com/amitsinha/backashome" />
+        <source-file src="src/android/IonicHome.java" target-dir="src/com/danielsogl/backashome" />
 
     </platform>
 

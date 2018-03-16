@@ -7,14 +7,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amitsinha559/cordova-plugin-back-as-home.git"
+    "url": "git+https://github.com/danielsogl/cordova-plugin-back-as-home.git"
   },
   "keywords": ["cordova", "android", "back", "button", "cordova-android"],
   "author": "Daniel Sogl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amitsinha559/cordova-plugin-back-as-home/issues"
+    "url": "https://github.com/danielsogl/cordova-plugin-back-as-home/issues"
   },
-  "homepage":
-    "https://github.com/amitsinha559/cordova-plugin-back-as-home#readme"
+  "homepage": "https://github.com/danielsogl/cordova-plugin-back-as-home#readme"
 }

@@ -1,4 +1,4 @@
-package com.amitsinha.backashome;
+package com.danielsogl.backashome;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
