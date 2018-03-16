@@ -11,7 +11,7 @@ public class IonicHome extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if ("minimize".equals(action)) {
-            try {               
+            try {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.addCategory(Intent.CATEGORY_HOME);
                 this.cordova.getActivity().startActivity(intent);
@@ -21,6 +21,6 @@ public class IonicHome extends CordovaPlugin {
                 return false;
             }
         }
-        return false;  
+        return false;
     }
 }
